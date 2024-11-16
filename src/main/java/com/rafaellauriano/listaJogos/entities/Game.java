@@ -24,9 +24,9 @@ public class Game {
 	private String platforms;
 	private Double score;
 	private String imgUrl;
-	@Column(columnDefinition = "TEXT")
+	@Column(columnDefinition = "TEXT")//Para gerar esse campo como um texto e não um var char com 255 caracteres
 	private String shortDescription;
-	@Column(columnDefinition = "TEXT")
+	@Column(columnDefinition = "TEXT")//Para gerar esse campo como um texto e não um var char com 255 caracteres
 	private String longDescription;
 	
 	public Game() {
